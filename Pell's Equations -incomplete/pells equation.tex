@@ -1,0 +1,43 @@
+\documentclass[20pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\parindent 0ex
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[L]{}
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{graphicx}
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{3cm}
+\huge{\textbf{Pell's Equation}}\\
+\Large{\textbf{January 2022}}\\
+\vfill
+Yashashwi Singhania\\
+
+\end{center}
+\end{titlepage}
+\section{Introduction}
+Pell's Equations are special types of Diophantine equations(equations with integer solutions) of the form $x^2 - ny^2 =1$ where $n$ is a given positive \textit{nonsquare integer} and the integer solutions are sought for $x$ and $y$. On plotting these equations on a cartesian plane, we get a parabolic curve where $(\pm{1},0)$ is a trivial solution.\\
+Lagrange proved that as long as $n$ is not a perfect square, there are infinite solutions to this diophantine equation.\\
+
+First studies of the Pell's Equation was actually done in India.
+The Indian mathematician and philosopher Brahmagupta found first integer solution to $92x^2 + 1=y^2$ in his \emph{Brahmasputasiddhanta}. Bhaskara II in the twelfth century Narayana Pandit in he 14th century both found a general solution to the Pell's Equation. \\
+
+Now if you're motivated enough, try and find the primitive solution\footnote{smallest non-trivial $x$ and $y$} to $x^2 + 61y^2 = 1$.
+
+\section{History}
+
+As early as 400 BC in India and Greece, mathematicians studied the numbers arising from the n = 2 case of Pell's equation,\\
+$x^2 + 2y^2 = \pm 1$\\
+because of the connection of these equations to the square root of 2. Indeed, if x and y are positive integers satisfying this equation, then $\frac{x}{y}$ is an approximation of $\sqrt{2}$.\\
+ Pythagoreans, and Proclus observed that in the opposite direction these numbers obeyed one of these two equations. Similarly, Baudhayana discovered that $x = 17, y = 12$ and $x = 577, y = 408$ are two solutions to the Pell's equation, and that $\frac{17}{12}$ and $\frac{577}{408}$ are very close approximations to $\sqrt{2}$.\\
+ Later, Archimedes approximated the $\sqrt{3}$ by the rational number $\frac{1351}{780}$. Although he did not explain his methods, this approximation may be obtained in the same way, as a solution to Pell's equation.`\\
+ 
+ \subsection{Exercise}
+Prove that the only solutions to $x^2 - ny^2 = 1$ where $n$ is a square is $(\pm 1,0).$
+\end{document}
